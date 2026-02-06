@@ -1,24 +1,35 @@
 class Television {
+	static String brand = "Sony";
+    static String model = "Bravia X75L";
+    static String screenSize = "55 inch";
+    static String resolution = "4K Ultra HD";
+    static String displayType = "LED";
+    static String smartTV = "Google TV";
+    static String sound = "20W Dolby Audio";
+    static String refreshRate = "60 Hz";
+    static String color = "Black";
+    static String warranty = "1 Year Warranty";
     public static void main(String[] args) {
-        System.out.println("Television is an electronic device.");
-        System.out.println("It is used for entertainment.");
-        System.out.println("Television shows movies.");
-        System.out.println("It shows news.");
-        System.out.println("It shows sports.");
-        System.out.println("Television has a screen.");
-        System.out.println("It has speakers.");
-        System.out.println("Television uses electricity.");
-        System.out.println("It can be smart TV.");
-        System.out.println("Smart TVs connect to internet.");
-        System.out.println("Television is used at home.");
-        System.out.println("It has remote control.");
-        System.out.println("Television supports apps.");
-        System.out.println("It shows cartoons.");
-        System.out.println("It is used by families.");
-        System.out.println("Television provides information.");
-        System.out.println("It helps in relaxation.");
-        System.out.println("Television is widely used.");
-        System.out.println("It improves entertainment.");
-        System.out.println("Television is common device.");
+        /*String brand = "Sony";
+        String model = "Bravia X75L";
+        String screenSize = "55 inch";
+        String resolution = "4K Ultra HD";
+        String displayType = "LED";
+        String smartTV = "Google TV";
+        String sound = "20W Dolby Audio";
+        String refreshRate = "60 Hz";
+        String color = "Black";
+        String warranty = "1 Year Warranty";*/
+
+        System.out.println("The brand of the television is " + brand + ".");
+        System.out.println("The model of the television is " + model + ".");
+        System.out.println("The screen size of the television is " + screenSize + ".");
+        System.out.println("The resolution supported is " + resolution + ".");
+        System.out.println("The display type is " + displayType + ".");
+        System.out.println("The smart TV platform used is " + smartTV + ".");
+        System.out.println("The sound output provided is " + sound + ".");
+        System.out.println("The refresh rate of the display is " + refreshRate + ".");
+        System.out.println("The color of the television is " + color + ".");
+        System.out.println("The warranty provided is " + warranty + ".");
     }
 }
